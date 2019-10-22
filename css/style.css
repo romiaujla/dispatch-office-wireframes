@@ -1,0 +1,114 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html, p, div, nav, main, address, form, fieldset,
+legend, h1, h2, h3, h4, h5, h6, ul, li, ol, header, footer{
+    padding: 0;
+    margin: 0;
+}
+
+.dark-blue-background{
+    background-color: #2E364F;
+}
+
+.dark-blue-text{
+    color: #2E364F;
+}
+
+.blue-background{
+    background-color: #2D5D7C;
+}
+
+.blue-text{
+    color: #2D5D7C;
+}
+
+.white-background{
+    background-color: #F3F0E2;;
+}
+
+.white-text{
+    color: #F3F0E2;;
+}
+
+.orange-background{
+    background-color: #EF5939;
+}
+
+.orange-text{
+    color: #EF5939;
+}
+
+body{
+    font-family: 'Montserrat', serif;
+    letter-spacing: 0.06em;
+}
+
+main{
+    padding: 10px;
+    width: 80%;
+    margin:auto;
+}
+
+.app{
+    padding-top: 20%;
+}
+
+.app-header{
+    font-family: 'Cinzel', serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    border-left: 16px double #2E364F;
+    line-height: 0.8em;
+    padding: 5px 0px 0px 12px;
+    font-size: 2em;
+}
+
+.landing-page-section{
+    padding: 50px 0px;
+    font-size: 0.9em;
+    line-height: 1.6em;
+}
+
+.app-desc span{
+    font-weight: 800;
+}
+
+.app-button{
+    background: #2D5D7C;
+    color: #F3F0E2;
+    font-family: 'Montserrat', sans-serif;
+    border: none;
+    font-size: 0.9em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    padding: 8px 18px;
+    width: 100%;
+    border-radius: 5px;
+
+}
+
+.app-button:hover,
+.app-button:focus{
+    background: #2E364F;
+    transition: 0.4s;
+}
+
+.landing-page-section .app-button{
+    margin: 50px 0px 10px 0px;
+}
+
+.login{
+    color: #2D5D7C;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: 600;
+}
+
