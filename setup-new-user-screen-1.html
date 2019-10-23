@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Dispatch Office | Setup Profile</title>
+    <link rel='stylesheet' href='./css/style.css'>
+    <link rel='stylesheet' href='./css/create-account.css'>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel:900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="app">
+        <header class="app-header">
+            <span class='app-name'>Dispatch</span>
+            <span class='app-name'>Office</span>
+        </header>
+        <form class='create-account-form'>
+            <fieldset>
+                <legend>
+                    Add Your First Equipment
+                </legend>
+                <div class='input-wrapper'>
+                    <label for='username'>
+                        <span class='input-label'>
+                            * Username:
+                        </span>
+                        <input type='text' id='username' name='username' required />
+                    </label>
+                    <label for='password'>
+                        <span class='input-label'>
+                            * Password:
+                        </span>
+                        <input type='password' id='password' name='password' required />
+                    </label>
+                    <label for='full-name'>
+                        <span class='input-label'>
+                            * Full Name:
+                        </span>
+                        <input type='text' id='full-name' name='full-name' required />
+                    </label>
+                    <label for='company-name'>
+                        <span class='input-label'>
+                            * Company Name:
+                        </span>
+                        <input type='text' id='company-name' name='company-name' required />
+                    </label>
+                    <label for='mc-num'>
+                        <span class='input-label'>
+                            * MC Number:
+                        </span>
+                        <input type='text' pattern='\d*' maxlength='6' id='company-name' name='company-name'
+                            placeholder="Example: 968302" required />
+                    </label>
+                    <button type='submit' class='app-button'>
+                        Create Account
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+</body>
+</html>
