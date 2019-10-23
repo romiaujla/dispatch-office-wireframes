@@ -1,0 +1,48 @@
+form{
+    margin: 20px 0px;
+    border: 1px solid silver;
+    border-radius: 5px;
+    text-align: center;
+}
+
+fieldset{
+    border: none;
+}
+
+form label{
+    padding: 3px 0px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.input-wrapper{
+    padding: 10px;
+}
+form legend{
+    padding: 10px;
+    background: silver;
+    text-transform: uppercase;
+    font-weight: 800;
+    display: block;
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.input-label{
+    font-size: 0.8em;
+    text-transform: uppercase;
+    margin: 5px 0px 5px 0px;
+}
+input{
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    border: 1px solid silver;
+    border-radius: 5px;
+    padding: 8px 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 0.8em;
+}
+.app-button{
+    margin-top: 10px;
+}
